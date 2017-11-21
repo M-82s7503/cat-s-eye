@@ -35,6 +35,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB930DFA1FC3FD4B004A9765 /* RyoMatsumoto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RyoMatsumoto;
+			sourceTree = "<group>";
+		};
 		F35F1DC31FC3E6FD007BBDF4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +61,7 @@
 		F35F1DCE1FC3E6FD007BBDF4 /* Test.swift */ = {
 			isa = PBXGroup;
 			children = (
+				AB930DFA1FC3FD4B004A9765 /* RyoMatsumoto */,
 				F35F1DCF1FC3E6FD007BBDF4 /* AppDelegate.swift */,
 				F35F1DD11FC3E6FD007BBDF4 /* ViewController.swift */,
 				F35F1DD31FC3E6FD007BBDF4 /* Main.storyboard */,
