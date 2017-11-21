@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79DBE7661FC3FF8D003E8B85 /* kumatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBE7651FC3FF8D003E8B85 /* kumatest.swift */; };
 		F35F1DD01FC3E6FD007BBDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F1DCF1FC3E6FD007BBDF4 /* AppDelegate.swift */; };
 		F35F1DD21FC3E6FD007BBDF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F1DD11FC3E6FD007BBDF4 /* ViewController.swift */; };
 		F35F1DD51FC3E6FD007BBDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35F1DD31FC3E6FD007BBDF4 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79DBE7651FC3FF8D003E8B85 /* kumatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kumatest.swift; sourceTree = "<group>"; };
 		F35F1DCC1FC3E6FD007BBDF4 /* Test.swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35F1DCF1FC3E6FD007BBDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F35F1DD11FC3E6FD007BBDF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79DBE7641FC3FE72003E8B85 /* kuma */ = {
+			isa = PBXGroup;
+			children = (
+				79DBE7651FC3FF8D003E8B85 /* kumatest.swift */,
+			);
+			path = kuma;
+			sourceTree = "<group>";
+		};
 		F35F1DC31FC3E6FD007BBDF4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		F35F1DCE1FC3E6FD007BBDF4 /* Test.swift */ = {
 			isa = PBXGroup;
 			children = (
+				79DBE7641FC3FE72003E8B85 /* kuma */,
 				F35F1DCF1FC3E6FD007BBDF4 /* AppDelegate.swift */,
 				F35F1DD11FC3E6FD007BBDF4 /* ViewController.swift */,
 				F35F1DD31FC3E6FD007BBDF4 /* Main.storyboard */,
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F35F1DD21FC3E6FD007BBDF4 /* ViewController.swift in Sources */,
+				79DBE7661FC3FF8D003E8B85 /* kumatest.swift in Sources */,
 				F35F1DD01FC3E6FD007BBDF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
