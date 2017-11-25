@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B3F26981FC4089C00A3A373 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F26971FC4089C00A3A373 /* test.swift */; };
+		3BB27A841FC926FF00EE1D86 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB27A831FC926FF00EE1D86 /* File.swift */; };
 		79DBE7661FC3FF8D003E8B85 /* kumatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBE7651FC3FF8D003E8B85 /* kumatest.swift */; };
 		AB930DFE1FC404FF004A9765 /* RyoMatsumoto in Resources */ = {isa = PBXBuildFile; fileRef = AB930DFD1FC404FF004A9765 /* RyoMatsumoto */; };
 		F35F1DD01FC3E6FD007BBDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F1DCF1FC3E6FD007BBDF4 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		3B3F26971FC4089C00A3A373 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		3BB27A831FC926FF00EE1D86 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		79DBE7651FC3FF8D003E8B85 /* kumatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kumatest.swift; sourceTree = "<group>"; };
 		AB930DFD1FC404FF004A9765 /* RyoMatsumoto */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RyoMatsumoto; path = Test.swift/RyoMatsumoto; sourceTree = "<group>"; };
 		F32174011FC40721009FBBDB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 			path = ikki;
 			sourceTree = "<group>";
 		};
+		3BB27A821FC926BB00EE1D86 /* fu */ = {
+			isa = PBXGroup;
+			children = (
+				3BB27A831FC926FF00EE1D86 /* File.swift */,
+			);
+			path = fu;
+			sourceTree = "<group>";
+		};
 		79DBE7641FC3FE72003E8B85 /* kuma */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 		F35F1DC31FC3E6FD007BBDF4 = {
 			isa = PBXGroup;
 			children = (
+				3BB27A821FC926BB00EE1D86 /* fu */,
 				3B3F26961FC4087100A3A373 /* ikki */,
 				F32174001FC40709009FBBDB /* Koo */,
 				79DBE7641FC3FE72003E8B85 /* kuma */,
@@ -172,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB27A841FC926FF00EE1D86 /* File.swift in Sources */,
 				F35F1DD21FC3E6FD007BBDF4 /* ViewController.swift in Sources */,
 				3B3F26981FC4089C00A3A373 /* test.swift in Sources */,
 				79DBE7661FC3FF8D003E8B85 /* kumatest.swift in Sources */,
