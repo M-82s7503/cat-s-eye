@@ -53,7 +53,6 @@
 		79DBE7641FC3FE72003E8B85 /* kuma */ = {
 			isa = PBXGroup;
 			children = (
-				79DBE7651FC3FF8D003E8B85 /* kumatest.swift */,
 			);
 			path = kuma;
 			sourceTree = "<group>";
@@ -75,6 +74,7 @@
 				AB930DFD1FC404FF004A9765 /* RyoMatsumoto */,
 				F35F1DCE1FC3E6FD007BBDF4 /* Test.swift */,
 				F35F1DCD1FC3E6FD007BBDF4 /* Products */,
+				79DBE7651FC3FF8D003E8B85 /* kumatest.swift */,
 			);
 			sourceTree = "<group>";
 		};
