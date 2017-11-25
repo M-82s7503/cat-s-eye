@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B3F26981FC4089C00A3A373 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F26971FC4089C00A3A373 /* test.swift */; };
 		3BB27A841FC926FF00EE1D86 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB27A831FC926FF00EE1D86 /* File.swift */; };
+		793C9F791FC927F500233D32 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C9F781FC927F500233D32 /* Test.swift */; };
 		79DBE7661FC3FF8D003E8B85 /* kumatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBE7651FC3FF8D003E8B85 /* kumatest.swift */; };
 		AB930DFE1FC404FF004A9765 /* RyoMatsumoto in Resources */ = {isa = PBXBuildFile; fileRef = AB930DFD1FC404FF004A9765 /* RyoMatsumoto */; };
 		F35F1DD01FC3E6FD007BBDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F1DCF1FC3E6FD007BBDF4 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		3B3F26971FC4089C00A3A373 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		3BB27A831FC926FF00EE1D86 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		793C9F781FC927F500233D32 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test.swift; path = ../../Test.swift; sourceTree = "<group>"; };
 		79DBE7651FC3FF8D003E8B85 /* kumatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kumatest.swift; sourceTree = "<group>"; };
 		AB930DFD1FC404FF004A9765 /* RyoMatsumoto */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RyoMatsumoto; path = Test.swift/RyoMatsumoto; sourceTree = "<group>"; };
 		F32174011FC40721009FBBDB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		79DBE7641FC3FE72003E8B85 /* kuma */ = {
 			isa = PBXGroup;
 			children = (
+				793C9F781FC927F500233D32 /* Test.swift */,
 			);
 			path = kuma;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				3B3F26981FC4089C00A3A373 /* test.swift in Sources */,
 				79DBE7661FC3FF8D003E8B85 /* kumatest.swift in Sources */,
 				F35F1DD01FC3E6FD007BBDF4 /* AppDelegate.swift in Sources */,
+				793C9F791FC927F500233D32 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
